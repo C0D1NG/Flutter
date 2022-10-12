@@ -1,0 +1,12 @@
+com.example.calculator_app-jetified-window-java-1.0.0-beta04-0 /Users/lakshayahlawat/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.calculator_app-core-1.6.0-1 /Users/lakshayahlawat/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.example.calculator_app-jetified-annotation-experimental-1.1.0-2 /Users/lakshayahlawat/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.calculator_app-jetified-window-1.0.0-beta04-3 /Users/lakshayahlawat/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.example.calculator_app-debug-4 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/android/app/src/debug/res
+com.example.calculator_app-main-5 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/android/app/src/main/res
+com.example.calculator_app-pngs-6 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/build/app/generated/res/pngs/debug
+com.example.calculator_app-resValues-7 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/build/app/generated/res/resValues/debug
+com.example.calculator_app-rs-8 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/build/app/generated/res/rs/debug
+com.example.calculator_app-mergeDebugResources-9 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.calculator_app-mergeDebugResources-10 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.calculator_app-merged_res-11 /Users/lakshayahlawat/Documents/GitHub/Flutter2/Calculator/TESLA2402/calculator_app/build/app/intermediates/merged_res/debug

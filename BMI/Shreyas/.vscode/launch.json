@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dev",
+            "cwd": "bmi_calculator",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bmi_calculator (profile mode)",
+            "cwd": "bmi_calculator",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bmi_calculator (release mode)",
+            "cwd": "bmi_calculator",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-0 /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-jetified-window-1.0.0-beta04-1 /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-jetified-window-java-1.0.0-beta04-2 /Users/squareboat/.gradle/caches/transforms-3/6867dd803962347fdd2c9566f65c7d96/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-jetified-annotation-experimental-1.1.0-3 /Users/squareboat/.gradle/caches/transforms-3/ddcd65d4a3bda2630797bd9d02ecf7ec/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-pngs-4 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-resValues-5 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-rs-6 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/generated/res/rs/release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-mergeReleaseResources-7 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.packageinfo.package_info_plus-mergeReleaseResources-8 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-9 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/intermediates/merged_res/release
+dev.fluttercommunity.plus.packageinfo.package_info_plus-main-10 /Users/squareboat/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.3+1/android/src/main/res
+dev.fluttercommunity.plus.packageinfo.package_info_plus-release-11 /Users/squareboat/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.3+1/android/src/release/res

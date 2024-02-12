@@ -1,0 +1,259 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:3:5-66
+14-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:3:22-64
+15
+16    <queries>
+16-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:36:4-41:14
+17        <intent>
+17-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:37:5-40:14
+18            <action android:name="android.intent.action.VIEW" />
+18-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:38:9-61
+18-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:38:17-58
+19
+20            <data android:scheme="https" />
+20-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:39:9-40
+20-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:39:15-37
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+24-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+25-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+26    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+26-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+26-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+28
+29    <application
+30        android:name="android.app.Application"
+30-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:6:9-42
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:7:9-43
+34        android:label="starter"
+34-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:5:9-32
+35        android:usesCleartextTraffic="true" >
+35-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/debug/AndroidManifest.xml:7:18-53
+36
+37        <!-- possibly other elements -->
+38        <activity
+38-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:8:9-28:20
+39            android:name="com.example.starter.MainActivity"
+39-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:9:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:13:13-163
+41            android:exported="true"
+41-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:10:13-36
+42            android:hardwareAccelerated="true"
+42-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:14:13-47
+43            android:launchMode="singleTop"
+43-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:11:13-43
+44            android:theme="@style/LaunchTheme"
+44-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:12:13-47
+45            android:windowSoftInputMode="adjustResize" >
+45-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:15:13-55
+46
+47            <!--
+48                 Specifies an Android theme to apply to this Activity as soon as
+49                 the Android process has started. This theme is visible to the user
+50                 while the Flutter UI initializes. After that, this theme continues
+51                 to determine the Window background behind the Flutter UI.
+52            -->
+53            <meta-data
+53-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:20:13-23:17
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:21:15-70
+55                android:resource="@style/NormalTheme" />
+55-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:22:15-52
+56
+57            <intent-filter>
+57-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:24:13-27:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:25:17-68
+58-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:25:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:26:17-76
+60-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:26:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64 Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:31:9-33:33
+68            android:name="flutterEmbedding"
+68-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:32:13-44
+69            android:value="2" />
+69-->/Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:33:13-30
+70
+71        <service
+71-->[:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:16:13-37
+75            <meta-data
+75-->[:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+76-->[:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-130
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+78            <meta-data
+78-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+79-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-128
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+81            <meta-data
+81-->[:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+82-->[:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:17:13-19:85
+85                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+85-->[com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:18:17-115
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:19:17-82
+87            <meta-data
+87-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+91-->[com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+93        </service>
+94
+95        <activity
+95-->[:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+96            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+96-->[:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+97            android:exported="false"
+97-->[:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+98-->[:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+99
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+101            android:name="androidx.window.extensions"
+101-->[androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+104            android:name="androidx.window.sidecar"
+104-->[androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+106
+107        <service
+107-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+108            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+108-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+109            android:exported="false" >
+109-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+110            <meta-data
+110-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+111                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+111-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+112                android:value="cct" />
+112-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+113        </service>
+114        <service
+114-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+115            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+115-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+116            android:exported="false"
+116-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" >
+117-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+118        </service>
+119
+120        <receiver
+120-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+121            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+121-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+122            android:exported="false" />
+122-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+123
+124        <provider
+124-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+125            android:name="com.google.firebase.provider.FirebaseInitProvider"
+125-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+126            android:authorities="com.example.starter.firebaseinitprovider"
+126-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+130
+131        <receiver
+131-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+132            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+132-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+134            android:exported="false" >
+134-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+135        </receiver>
+136
+137        <service
+137-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+138            android:name="com.google.android.gms.measurement.AppMeasurementService"
+138-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+139            android:enabled="true"
+139-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+140            android:exported="false" />
+140-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+141        <service
+141-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+142            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+142-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+145            android:permission="android.permission.BIND_JOB_SERVICE" />
+145-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+146
+147        <meta-data
+147-->[com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+148            android:name="com.google.android.gms.version"
+148-->[com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+149            android:value="@integer/google_play_services_version" />
+149-->[com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+150    </application>
+151
+152</manifest>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/layout-v21/notification_action.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/layout-v21/notification_template_custom_big.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/layout-v21/notification_template_icon_group.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/layout-v21/notification_action_tombstone.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/layout-v21/notification_action_tombstone.xml"
+    }
+]

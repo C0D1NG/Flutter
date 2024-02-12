@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/drawable/notification_tile_bg.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/drawable/notification_bg_low.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/drawable/notification_bg.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-8:/drawable/notification_icon_background.xml",
+        "source": "dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-0:/drawable/notification_icon_background.xml"
+    }
+]

@@ -1,0 +1,512 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:4:4-34:19
+MERGED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-19:19
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-19:19
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/deaac43378ae063fc51377efcdc8a199/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/deaac43378ae063fc51377efcdc8a199/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/squareboat/.gradle/caches/transforms-3/a41f8607cf7407670d000cd85ac02a50/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/squareboat/.gradle/caches/transforms-3/a41f8607cf7407670d000cd85ac02a50/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/cae5603b9d6671311dea67c9264841cb/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/cae5603b9d6671311dea67c9264841cb/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/03329b2c2df994771dc1b18c3e4557f6/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/03329b2c2df994771dc1b18c3e4557f6/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/squareboat/.gradle/caches/transforms-3/2785eeadd5842abf5177e3a472ffef81/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/squareboat/.gradle/caches/transforms-3/2785eeadd5842abf5177e3a472ffef81/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/squareboat/.gradle/caches/transforms-3/703116f692db0fc0318bc52854d94fe3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/squareboat/.gradle/caches/transforms-3/703116f692db0fc0318bc52854d94fe3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/squareboat/.gradle/caches/transforms-3/c5ddd0ebe10f405f710a5adbea0a88ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/squareboat/.gradle/caches/transforms-3/c5ddd0ebe10f405f710a5adbea0a88ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:5:9-32
+	android:icon
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:name
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:6:9-42
+manifest
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+MERGED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:package_info_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:connectivity_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/6867dd803962347fdd2c9566f65c7d96/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/3c2f08958ade4998703bdaaf1a490b20/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/e214c9b3fd0f2f86e3c7ebd02a062a8a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/deaac43378ae063fc51377efcdc8a199/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/49445f0e3f887757ce6ea76a4484d829/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/squareboat/.gradle/caches/transforms-3/a41f8607cf7407670d000cd85ac02a50/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/cae5603b9d6671311dea67c9264841cb/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/03329b2c2df994771dc1b18c3e4557f6/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/squareboat/.gradle/caches/transforms-3/2785eeadd5842abf5177e3a472ffef81/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/squareboat/.gradle/caches/transforms-3/703116f692db0fc0318bc52854d94fe3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/squareboat/.gradle/caches/transforms-3/b9d56a3c020350d346c17b6c2c8bd41d/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/f9dc6d2155b4dbc35671beba9a5790a7/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/c3ca226d6631fe96f83930d35b08b82e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/4ff42fc15def28d4e4c783f4a6005237/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/e35154fff3cff52a5108ff2b17a06c57/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/283d4042bca9a29d22f17a58fd897e29/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/squareboat/.gradle/caches/transforms-3/c1223178f8a8fbfcae31babe22701f1e/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/bf781bbb3ffa5b5d7c5d9fbbf23025fd/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/9ff9e93bb6ade3ca7301ba331cbfb55d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/a6c355610799d634f6beed4ad43811a7/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/0bf266eac267a7183dca6c4e64b7fdca/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/squareboat/.gradle/caches/transforms-3/b30a4d8b55b0ac46a1975f876ef1575c/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/squareboat/.gradle/caches/transforms-3/3ede54f5e2dda0286aab75cb4477b930/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/4444358e233f2acbdb6bd6322db4cf3a/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/squareboat/.gradle/caches/transforms-3/c5ddd0ebe10f405f710a5adbea0a88ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/squareboat/.gradle/caches/transforms-3/a06cdd796ae28761cf3ddc7959fcf0ed/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/fc763783d4760f052d0c14f3b7c714b0/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/353f282b10aac2ebd9d00113586219d7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/149d6d250f58a09960f592c8f85a017b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/squareboat/.gradle/caches/transforms-3/ddcd65d4a3bda2630797bd9d02ecf7ec/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+	package
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:1-44:12
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:3:22-64
+queries
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:36:4-41:14
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:37:5-40:14
+action#android.intent.action.VIEW
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:38:9-61
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:38:17-58
+data
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:39:9-40
+	android:scheme
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:39:15-37
+uses-sdk
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/6867dd803962347fdd2c9566f65c7d96/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/6867dd803962347fdd2c9566f65c7d96/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/3c2f08958ade4998703bdaaf1a490b20/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/3c2f08958ade4998703bdaaf1a490b20/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/e214c9b3fd0f2f86e3c7ebd02a062a8a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/e214c9b3fd0f2f86e3c7ebd02a062a8a/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/deaac43378ae063fc51377efcdc8a199/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/deaac43378ae063fc51377efcdc8a199/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/49445f0e3f887757ce6ea76a4484d829/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/49445f0e3f887757ce6ea76a4484d829/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/squareboat/.gradle/caches/transforms-3/a41f8607cf7407670d000cd85ac02a50/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/squareboat/.gradle/caches/transforms-3/a41f8607cf7407670d000cd85ac02a50/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/cae5603b9d6671311dea67c9264841cb/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/cae5603b9d6671311dea67c9264841cb/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/03329b2c2df994771dc1b18c3e4557f6/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/03329b2c2df994771dc1b18c3e4557f6/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/squareboat/.gradle/caches/transforms-3/2785eeadd5842abf5177e3a472ffef81/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/squareboat/.gradle/caches/transforms-3/2785eeadd5842abf5177e3a472ffef81/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/squareboat/.gradle/caches/transforms-3/703116f692db0fc0318bc52854d94fe3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/squareboat/.gradle/caches/transforms-3/703116f692db0fc0318bc52854d94fe3/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/squareboat/.gradle/caches/transforms-3/b9d56a3c020350d346c17b6c2c8bd41d/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/squareboat/.gradle/caches/transforms-3/b9d56a3c020350d346c17b6c2c8bd41d/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/f9dc6d2155b4dbc35671beba9a5790a7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/f9dc6d2155b4dbc35671beba9a5790a7/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/c3ca226d6631fe96f83930d35b08b82e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/c3ca226d6631fe96f83930d35b08b82e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/4ff42fc15def28d4e4c783f4a6005237/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/4ff42fc15def28d4e4c783f4a6005237/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/e35154fff3cff52a5108ff2b17a06c57/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/e35154fff3cff52a5108ff2b17a06c57/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/283d4042bca9a29d22f17a58fd897e29/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/283d4042bca9a29d22f17a58fd897e29/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/squareboat/.gradle/caches/transforms-3/c1223178f8a8fbfcae31babe22701f1e/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/squareboat/.gradle/caches/transforms-3/c1223178f8a8fbfcae31babe22701f1e/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/bf781bbb3ffa5b5d7c5d9fbbf23025fd/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/bf781bbb3ffa5b5d7c5d9fbbf23025fd/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/9ff9e93bb6ade3ca7301ba331cbfb55d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/9ff9e93bb6ade3ca7301ba331cbfb55d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/a6c355610799d634f6beed4ad43811a7/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/a6c355610799d634f6beed4ad43811a7/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/0bf266eac267a7183dca6c4e64b7fdca/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/0bf266eac267a7183dca6c4e64b7fdca/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/squareboat/.gradle/caches/transforms-3/b30a4d8b55b0ac46a1975f876ef1575c/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/squareboat/.gradle/caches/transforms-3/b30a4d8b55b0ac46a1975f876ef1575c/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/squareboat/.gradle/caches/transforms-3/3ede54f5e2dda0286aab75cb4477b930/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/squareboat/.gradle/caches/transforms-3/3ede54f5e2dda0286aab75cb4477b930/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/4444358e233f2acbdb6bd6322db4cf3a/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/squareboat/.gradle/caches/transforms-3/4444358e233f2acbdb6bd6322db4cf3a/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/squareboat/.gradle/caches/transforms-3/c5ddd0ebe10f405f710a5adbea0a88ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/squareboat/.gradle/caches/transforms-3/c5ddd0ebe10f405f710a5adbea0a88ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/squareboat/.gradle/caches/transforms-3/a06cdd796ae28761cf3ddc7959fcf0ed/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/squareboat/.gradle/caches/transforms-3/a06cdd796ae28761cf3ddc7959fcf0ed/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/fc763783d4760f052d0c14f3b7c714b0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/fc763783d4760f052d0c14f3b7c714b0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/353f282b10aac2ebd9d00113586219d7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/353f282b10aac2ebd9d00113586219d7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/149d6d250f58a09960f592c8f85a017b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/squareboat/.gradle/caches/transforms-3/149d6d250f58a09960f592c8f85a017b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/squareboat/.gradle/caches/transforms-3/ddcd65d4a3bda2630797bd9d02ecf7ec/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/squareboat/.gradle/caches/transforms-3/ddcd65d4a3bda2630797bd9d02ecf7ec/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml
+activity#com.example.starter.MainActivity
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:8:9-28:20
+	android:launchMode
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:11:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:14:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:15:13-55
+	android:exported
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:10:13-36
+	android:configChanges
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:13:13-163
+	android:theme
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:12:13-47
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:9:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:20:13-23:17
+	android:resource
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:22:15-52
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:21:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:26:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:31:9-33:33
+	android:value
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:33:13-30
+	android:name
+		ADDED from /Users/squareboat/AndroidStudioProjects/flutter-starter/android/app/src/main/AndroidManifest.xml:32:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:19
+MERGED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:19
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:16:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-128
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/squareboat/AndroidStudioProjects/flutter-starter/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.3.2] /Users/squareboat/.gradle/caches/transforms-3/f3e8c707a40528dc1a97cfaef8b72423/transformed/jetified-firebase-crashlytics-18.3.2/AndroidManifest.xml:18:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/db90a7c43198f43a9fc7a8e922e09a9a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/squareboat/.gradle/caches/transforms-3/9091594b92dd3b222112abc8070eb474/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/squareboat/.gradle/caches/transforms-3/cb8cd1ab6697973a273af168beb4b86e/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/e314ef0ec3dabbfe64936004e7a43971/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/839edc4c3faea21d308f2a43c4ace0ae/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.0] /Users/squareboat/.gradle/caches/transforms-3/6962c61767faef806fab4a4e2c366c4f/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/54abb8528ca82ff8dfd5c6f915b7f077/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/squareboat/.gradle/caches/transforms-3/2591838ea7575d11372f22bc57290dcf/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58

@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-0 /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-1 /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-2 /Users/squareboat/.gradle/caches/transforms-3/6867dd803962347fdd2c9566f65c7d96/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-3 /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.2.0-4 /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-5 /Users/squareboat/.gradle/caches/transforms-3/ddcd65d4a3bda2630797bd9d02ecf7ec/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-6 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-7 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-8 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-9 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-11 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/merged_res/release
+io.flutter.plugins.firebase.core.firebase_core-main-12 /Users/squareboat/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.4.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-13 /Users/squareboat/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-2.4.0/android/src/release/res

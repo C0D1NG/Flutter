@@ -1,0 +1,15 @@
+io.flutter.plugins.firebase.analytics.firebase_analytics-core-1.6.0-0 /Users/squareboat/.gradle/caches/transforms-3/09613cbedccb5f33ae9163b1fa6b5134/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-window-1.0.0-beta04-1 /Users/squareboat/.gradle/caches/transforms-3/20fc9da2433af34e1e80255d48a2d9c1/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-window-java-1.0.0-beta04-2 /Users/squareboat/.gradle/caches/transforms-3/6867dd803962347fdd2c9566f65c7d96/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-play-services-basement-18.1.0-3 /Users/squareboat/.gradle/caches/transforms-3/6963bbb41385a0af6a6870a83e6b1721/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-firebase-common-20.2.0-4 /Users/squareboat/.gradle/caches/transforms-3/98950903bad0ace28ef444c0e87a627c/transformed/jetified-firebase-common-20.2.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-jetified-annotation-experimental-1.1.0-5 /Users/squareboat/.gradle/caches/transforms-3/ddcd65d4a3bda2630797bd9d02ecf7ec/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-pngs-6 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/generated/res/pngs/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-resValues-7 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/generated/res/resValues/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-rs-8 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/generated/res/rs/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-mergeReleaseResources-9 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.analytics.firebase_analytics-mergeReleaseResources-10 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.analytics.firebase_analytics-merged_res-11 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_analytics/intermediates/merged_res/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-packaged_res-12 /Users/squareboat/AndroidStudioProjects/flutter-starter/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.analytics.firebase_analytics-main-13 /Users/squareboat/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-10.0.8/android/src/main/res
+io.flutter.plugins.firebase.analytics.firebase_analytics-release-14 /Users/squareboat/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_analytics-10.0.8/android/src/release/res

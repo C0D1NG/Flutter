@@ -6,7 +6,7 @@
 
 ### This is an open-source repository that collects different projects.
 
-Make some awesome projects, put them in your directory and create a pull request, also 🌟 this repo for future reference.
+Make some awesome projects, put them in your directory, and create a pull request. Also, 🌟 this repo for future reference.
 
 ---
 
@@ -18,7 +18,7 @@ Fork this repository by clicking on the fork button at the top of this page. Thi
 
 # 👉 Clone the Repository
 
-Now clone the forked repository to your system. Go to your GitHub account, open the forked repository, click on the code button and then clone the repository.
+Now clone the forked repository to your system. Go to your GitHub account, open the forked repository, click on the code button, and then clone the repository.
 
 # 👉 Create a Branch
 
@@ -30,7 +30,7 @@ Make necessary changes and commit those changes.
 
 # 👉 Push changes to GitHub
 
-Finally push your local repository to the remote repository.
+Finally, push your local repository to the remote repository.
 
 # 👉 Compare & Submit a Pull Request
 
@@ -40,11 +40,11 @@ We're happy to merge awesome projects into this repository!
 
 # Hurray! Now you are a part of the open source community 🚀🚀🚀
 
-## Contributers
+## Contributors
+
 <a href="https://github.com/C0D1NG/Flutter/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=C0D1NG/Flutter" />
 </a>
-
 
 ## Join our Telegram Community 👉🏻 [C0D1NG](https://t.me/C0D1NG)
 
